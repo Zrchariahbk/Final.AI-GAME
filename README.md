@@ -1,21 +1,21 @@
 ===Mario AI Agent with PyTorch===
-A self-learning AI that masters Super Mario Bros using Deep Q-Learning (DQN).
+-A self-learning AI that masters Super Mario Bros using Deep Q-Learning (DQN).
 
 ===Objective===
-Train an AI agent to play Super Mario Bros autonomously using PyTorch and GPU acceleration (NVIDIA RTX 2060+).
+-Train an AI agent to play Super Mario Bros autonomously using PyTorch and GPU acceleration (NVIDIA RTX 2060+).
 
 ===Key Features===
-🎮 Real-time gameplay visualization during training
-🧠 Deep Q-Learning with experience replay and target networks
-⚡ GPU-accelerated training (CUDA support)
-📊 Live performance tracking with reward graphs
-💾 Auto-save system for progress protection
+-🎮 Real-time gameplay visualization during training
+-🧠 Deep Q-Learning with experience replay and target networks
+-⚡ GPU-accelerated training (CUDA support)
+-📊 Live performance tracking with reward graphs
+-💾 Auto-save system for progress protection
 
 ===Technical Components===
-Neural Network: 3-layer CNN + 2-layer FC
-Input: 84x84 grayscale frames (4-frame stack)
-Output: 7 possible Mario actions
-Training: 100,000+ episodes with ε-greedy exploration
+-Neural Network: 3-layer CNN + 2-layer FC
+-Input: 84x84 grayscale frames (4-frame stack)
+-Output: 7 possible Mario actions
+-Training: 100,000+ episodes with ε-greedy exploration
 
 === INSTALLATION ===
 1. Install Python 3.8+
